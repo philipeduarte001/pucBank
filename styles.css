@@ -1,0 +1,267 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    background-color: #FD6F00;
+    font-family: 'Inter';
+}
+h2 {
+    color: #FD6F00;
+    padding: 30px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 33px;
+} 
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: medium;
+    color: #9A9A9A;
+}
+
+h4 {
+    font-size: small;
+    color: #9A9A9A;
+}
+
+h5 {
+    margin-left: 3%;
+}
+
+h6 {
+    color: #9A9A9A;
+    margin-right: 40px;
+}
+
+h7 {
+    color: black;
+    margin-right: 1px;
+    font-size: 13px;
+}
+
+p {
+    font-size: small;
+    color: #9A9A9A;
+    margin-left: 3%;
+    width: 60%;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: black;
+    text-decoration: none;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: black;
+     text-decoration: none;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: black;
+     text-decoration: none;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: black;
+     text-decoration: none;
+ }
+ 
+.div-bloco {
+    width: 900px;
+    height: 550px;
+    left: 50%;
+    top: 50%;
+    margin-left: -450px;
+    /* Metade do valor da Largura */
+    margin-top: -275px;
+    /* Metade da valor da Altura */
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: -14px 14px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.div-men-esq {
+    height: 40px;
+    /*background: #FFFF33;*/
+}
+
+.div-men-dir {
+    text-align: right;
+    height: 40px;
+    margin-right: 5%;
+    /*background: #FF2200;*/
+}
+
+.div-ctd-esq {
+    position: absolute;
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.div-ctd-dir {
+    width: 45%;
+    left: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    position: absolute;
+}
+
+.div-ctd-cen {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.div-ctd-painel {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.btn-saiba {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    color: #FFFFFF;
+    background: #FD6F00;
+    border-radius: 12px;
+}
+
+.btn-entrar {
+    width: 140px;
+    height: 35px;
+    color: #FFFFFF;
+    background: #FD6F00;
+    border-radius: 12px;
+}
+
+.input-text {
+    box-sizing: border-box;
+    width: 80%;
+    height: 35px;
+    border: 1.4783px solid rgba(11, 70, 84, 0.25);
+    border-radius: 5.91319px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.input-text-login {
+    box-sizing: border-box;
+    width: 40%;
+    height: 35px;
+    border: 1.4783px solid rgba(11, 70, 84, 0.25);
+    border-radius: 5.91319px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.input-radio {
+    font-size: small;
+    color: #9A9A9A;
+}
+
+
+.button-cnt {
+    background: #07B464;
+    box-shadow: 0px 2.95px .95px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 10.8264px;
+    width: 80%;
+    color:white;
+    height:30px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.button-login {
+    background: #07B464;
+    box-shadow: 0px 2.95px .95px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 10.8264px;
+    width: 40%;
+    color:white;
+    height:30px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.btn-menu {
+    width: 92px;
+    height: 80px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    background: #07B464;
+    box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 11.8264px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.div-cadastral-esq {
+    position: absolute;
+    width: 40%;
+    padding-left: 3%;
+}
+
+.div-cadastral-dir {
+    position: absolute;
+    width: 40%;
+    left: 42%;
+}
+
+.div-cartao-esq {
+    position: absolute;
+    width: 40%;
+    padding-left: 3%;
+}
+
+.div-cartao-dir {
+    position: absolute;
+    width: 40%;
+    left: 46%;
+}
+
+.input-text-panel {
+    box-sizing: border-box;
+    width: 70%;
+    height: 20px;
+    border: 1.4783px solid rgba(11, 70, 84, 0.25);
+    border-radius: 5.91319px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.input-text-panel-car {
+    box-sizing: border-box;
+    width: 50%;
+    height: 20px;
+    border: 1.4783px solid rgba(11, 70, 84, 0.25);
+    border-radius: 5.91319px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.button-panel {
+    background: #FD6F00;
+    box-shadow: 0px 2.95px .95px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 10.8264px;
+    width: 30%;
+    color:white;
+    height: 40px;
+}
+
+.button-panel-car {
+    background: #FD6F00;
+    box-shadow: 0px 2.95px .95px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 10.8264px;
+    width: 40%;
+    color:white;
+    height: 40px;
+}
